@@ -1,0 +1,68 @@
+# Core Language & Utility
+python-dotenv
+numpy
+pandas
+
+# Vector Database
+weaviate-client
+
+# Knowledge Graph
+neo4j
+
+# Embeddings & Transformers
+sentence-transformers
+open-clip-torch
+torch
+transformers
+
+# OCR
+easyocr
+pytesseract  # Add this for Tesseract support
+Pillow  # Move this here since it's needed for image processing
+
+# PDF Processing
+PyPDF2  # PDF text extraction
+
+# Audio (optional, if your pipeline will expand)
+# librosa
+# soundfile
+
+# UI
+streamlit
+
+# LLM & Prompt Orchestration
+langchain
+openai  # for OpenAI GPT-4o
+
+# Logging & JSON
+loguru
+
+# Evaluation/Testing
+deepeval
+pytest
+unittest  # stdlib, don't need to pip install
+
+# Misc/Utils
+scikit-learn
+requests
+tqdm  # Progress bars for long operations
+pydantic  # Data validation (already mentioned but good to have)
+
+# Image/Video Handling
+opencv-python
+
+# Visualization (optional)
+networkx
+pyvis
+
+# Security (optional, for access control)
+# flask-httpauth
+
+# Additional useful packages for RAG
+faiss-cpu  # Vector similarity search (alternative to Weaviate)
+elasticsearch  # Text search engine
+beautifulsoup4  # HTML parsing for web content
+python-multipart  # File uploads in Streamlit
+streamlit-option-menu  # Better UI components
+
+# Only include what you use! Remove any libraries you don't need.
